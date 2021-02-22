@@ -1,0 +1,36 @@
+/************************************************************
+  Default Styles / Mobile-first Approach 
+************************************************************/
+/****************************************
+  Root Styles
+****************************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+:root {
+    font-size: 13px;
+
+    /***************
+        Colors
+    ***************/
+
+    /* Primary */
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Neutral */
+    --light-grey: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+
+}
+
+/****************************************
+  Footer Styles
+****************************************/  
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
