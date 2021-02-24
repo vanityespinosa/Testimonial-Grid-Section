@@ -28,6 +28,81 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 
 }
+html, body {
+  width: 100%;
+  height: 100%;
+  background: var(--light-grayish-blue);
+}
+/****************************************
+  Utility Styles
+****************************************/
+.profile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.profile-info h2, 
+.profile-info h3 {
+  font-size: 1rem;
+}
+.choice-quote {
+  font-size: 1.25rem;
+}
+/****************************************
+  Grid Container Styles
+****************************************/
+#grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#grid-container div {
+  border-radius: 15px;
+  margin: 2rem;
+}
+#grid-container img {
+  border-radius: 100%;
+}
+
+/*************************
+  Dan Container Styles
+**************************/
+#dan-container {
+  color: var(--white);
+  background-color: var(--moderate-violet);
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+/*************************
+  Jon Container Styles
+**************************/
+#jon-container {
+  color: var(--white);
+  background-color: var(--very-dark-grayish-blue);
+}
+
+/*************************
+  Jean Container Styles
+**************************/
+#jean-container {
+  background-color: var(--white);
+}
+/*************************
+  Pat Container Styles
+**************************/
+#pat-container {
+  color: var(--white);
+  background-color: var(--very-dark-blackish-blue);
+}
+
+/*************************
+  Kira Container Styles
+**************************/
+#kira-container {
+  background-color: var(--white);
+}
 
 /****************************************
   Footer Styles
